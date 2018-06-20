@@ -95,12 +95,12 @@
             <!-- End Countdown -->
 
             <!-- Form -->
-            <form class="js-validate js-form-message">
+            <form class="js-validate js-form-message" data-drip-embedded-form="219292833" action="https://www.getdrip.com/forms/219292833/submissions" method="post">
               <div class="js-focus-state input-group u-form">
-                <input type="email" class="form-control u-form__input" name="email" required
+                <input type="email" class="form-control u-form__input" name="fields[email]"  required
                        placeholder="Entrez votre e-mail"
                        aria-label="Enter your email address"
-                       data-msg="Please enter a valid email address."
+                       data-msg="Veuillez entrer une adresse e-mail valide"
                        data-error-class="u-has-error"
                        data-success-class="u-has-success">
                 <div class="input-group-append u-form__append">
@@ -179,5 +179,20 @@
       });
     });
   </script>
+  <!-- Drip -->
+  <script type="text/javascript">
+  var _dcq = _dcq || [];
+  var _dcs = _dcs || {};
+  _dcs.account = '1003649';
+
+  (function() {
+    var dc = document.createElement('script');
+    dc.type = 'text/javascript'; dc.async = true;
+    dc.src = '//tag.getdrip.com/1003649.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(dc, s);
+  })();
+  </script>
+  <!-- end Drip -->
 </body>
 </html>
