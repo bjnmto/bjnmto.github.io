@@ -4795,7 +4795,7 @@ svg {
 .u-has-success .u-form.u-focus-state .u-form__text,
 .u-has-success .u-form.u-focus-state .u-form__input,
 .u-has-success .u-form.u-focus-state *:focus {
-  border-color: #00c9a7;
+  border-color: #9c6;
 }
 
 .u-has-success .u-form.u-focus-state .u-form__text {
@@ -4839,7 +4839,7 @@ svg {
 .u-form.u-focus-state .u-form__text,
 .u-form.u-focus-state .u-form__input,
 .u-form.u-focus-state *:focus {
-  border-color: rgba(55, 125, 255, 0.5);
+  border-color: #9c6;
 }
 
 .u-form.u-focus-state .u-form__text {
