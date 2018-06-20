@@ -2363,14 +2363,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #377dff;
-  border-color: #377dff;
+  background-color: #9c6;
+  border-color: #9c6;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #1164ff;
-  border-color: #045cff;
+  background-color: #78ae41;
+  border-color: #78ae41;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -9661,11 +9661,15 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #377dff !important;
+  color: #000 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
   color: #045cff !important;
+}
+
+.text-primary-number {
+  color : #9c6;
 }
 
 .text-secondary {
