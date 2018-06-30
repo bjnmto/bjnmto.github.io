@@ -3930,7 +3930,7 @@ svg {
   text-align: center;
   width: 2.125rem;
   height: 2.125rem;
-  font-size: 0.9375rem;
+  font-size: 1.1rem;
   border-radius: 0.25rem;
   transition: 0.3s ease-in-out;
 }
@@ -4218,13 +4218,13 @@ svg {
 
 /* secondary air */
 .u-icon-secondary--air {
-  color: #77838f;
+  color: #222;
   background: rgba(119, 131, 143, 0.1);
 }
 
 .u-icon-secondary--air[href]:hover, .u-icon-secondary--air[href]:focus, .u-icon-secondary--air[href]:active {
   color: #fff;
-  background: #77838f;
+  background: #9c6;
 }
 
 /* success air */
